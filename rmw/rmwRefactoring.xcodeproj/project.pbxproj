@@ -20,6 +20,8 @@
 		0BC7F68B1F2AF09900277070 /* ReminderDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F68A1F2AF09900277070 /* ReminderDetailsView.swift */; };
 		0BC7F68D1F2AF0BE00277070 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F68C1F2AF0BE00277070 /* LocationDetailsView.swift */; };
 		0BC7F68F1F2AF0DF00277070 /* TimeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F68E1F2AF0DF00277070 /* TimeDetailsView.swift */; };
+		29C869DD1F2EE1C800AFFBFE /* AllRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C869DC1F2EE1C800AFFBFE /* AllRemindersView.swift */; };
+		29C869DF1F2EE25200AFFBFE /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C869DE1F2EE25200AFFBFE /* ReminderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		0BC7F68A1F2AF09900277070 /* ReminderDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderDetailsView.swift; sourceTree = "<group>"; };
 		0BC7F68C1F2AF0BE00277070 /* LocationDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 		0BC7F68E1F2AF0DF00277070 /* TimeDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDetailsView.swift; sourceTree = "<group>"; };
+		29C869DC1F2EE1C800AFFBFE /* AllRemindersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllRemindersView.swift; sourceTree = "<group>"; };
+		29C869DE1F2EE25200AFFBFE /* ReminderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 				0BC7F68A1F2AF09900277070 /* ReminderDetailsView.swift */,
 				0BC7F68C1F2AF0BE00277070 /* LocationDetailsView.swift */,
 				0BC7F68E1F2AF0DF00277070 /* TimeDetailsView.swift */,
+				29C869DC1F2EE1C800AFFBFE /* AllRemindersView.swift */,
+				29C869DE1F2EE25200AFFBFE /* ReminderCell.swift */,
 			);
 			path = MessagesExtension;
 			sourceTree = "<group>";
@@ -180,7 +186,7 @@
 				TargetAttributes = {
 					0BC7F65E1F2AD84A00277070 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UBF8T346G9;
+						DevelopmentTeam = 7K4LUWKQQ9;
 						ProvisioningStyle = Automatic;
 					};
 					0BC7F6681F2AD84A00277070 = {
@@ -239,8 +245,10 @@
 				0BC7F68B1F2AF09900277070 /* ReminderDetailsView.swift in Sources */,
 				0BC7F6831F2AD87000277070 /* CompactContainerView.swift in Sources */,
 				0BC7F6851F2AD8BF00277070 /* Constraints.swift in Sources */,
+				29C869DF1F2EE25200AFFBFE /* ReminderCell.swift in Sources */,
 				0BC7F68D1F2AF0BE00277070 /* LocationDetailsView.swift in Sources */,
 				0BC7F6891F2AE60100277070 /* ViewAllViewController.swift in Sources */,
+				29C869DD1F2EE1C800AFFBFE /* AllRemindersView.swift in Sources */,
 				0BC7F6721F2AD84A00277070 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +403,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				DEVELOPMENT_TEAM = 7K4LUWKQQ9;
 				INFOPLIST_FILE = rmwRefactoring/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = samplecompany.rmwRefactoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,7 +416,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				DEVELOPMENT_TEAM = 7K4LUWKQQ9;
 				INFOPLIST_FILE = rmwRefactoring/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = samplecompany.rmwRefactoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";

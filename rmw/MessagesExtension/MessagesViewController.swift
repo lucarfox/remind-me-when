@@ -98,6 +98,7 @@ class MessagesViewController: MSMessagesAppViewController {
     
     public func viewAllButtonPressed(){
         let viewVC = ViewAllViewController()
+        viewVC.eventStore = self.eventStore
         self.present(viewVC, animated: false, completion: nil)
     }
     
@@ -165,7 +166,6 @@ class MessagesViewController: MSMessagesAppViewController {
             successLabel.height(h: 30)
             successLabel.width(w: 350)
             self.introTextBox.defaultText.delegate = self
-            
 
         }
 
